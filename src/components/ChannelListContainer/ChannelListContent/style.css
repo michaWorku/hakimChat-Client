@@ -1,0 +1,12 @@
+.channel-list__list__wrapper {
+  display: flex;
+  flex-direction: column;
+  background: var(--primary-color);
+  width: 240px;
+}
+
+@media screen and (max-width: 960px) {
+  .channel-list__list__wrapper {
+    width: 100%;
+  }
+}
